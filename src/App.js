@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import FunctionalComponent from "./components/FunctionalComponent";
-import Calculator from "./components/Calculator";
+import Addition from "./components/Addition";
 import Subtraction from "./components/Subtraction";
 import Multiply from "./components/Multiply";
 import Divide from "./components/Divide";
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <FunctionalComponent />
-        <Calculator />
+        <Addition />
         <Subtraction />
         <Multiply />
         <Divide />

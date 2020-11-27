@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Calculator extends Component {
+class Addition extends Component {
 
     state={
         total:0,
@@ -64,4 +64,4 @@ class Calculator extends Component {
 
 
 
-export default Calculator
+export default Addition
