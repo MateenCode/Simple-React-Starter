@@ -1,17 +1,28 @@
 import React, { Component } from "react";
 
 import FunctionalComponent from "./components/FunctionalComponent";
-import ClassComponent from "./components/ClassComponent";
+import Calculator from "./components/Calculator";
+import Subtraction from "./components/Subtraction";
+import Multiply from "./components/Multiply";
+import Divide from "./components/Divide";
 
 import "./css/App.css";
 
 class App extends Component {
   render() {
+
+  
+
+
     return (
       <div className="App">
         <FunctionalComponent />
-        <ClassComponent />
+        <Calculator />
+        <Subtraction />
+        <Multiply />
+        <Divide />
       </div>
+      
     );
   }
 }
