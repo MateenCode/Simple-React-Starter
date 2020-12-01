@@ -32,7 +32,7 @@ class Calculator extends Component {
         })
       }
 
-        //CODE TO ADD
+        //CODE TO SUBTRACT
       minusTotal=()=>{
         const grandTotal = parseInt(this.state.minusNum1)-parseInt(this.state.minusNum2)  
         this.setState({
@@ -98,7 +98,7 @@ class Calculator extends Component {
                     <span>*</span>
                      <input type="number" name="multiplyNum2" placeholder="enter second number" value={this.state.multiplyNum2} onChange= {(e) => this.setNum(e, 'multiplyNum2')} />
                     <button onClick={this.multiplyTotal}>=</button>
-                    <h3>subtraction results go here!</h3>
+                    <h3>Multiplication results go here!</h3>
                     <p> {this.state.total3}</p>
                 </div>
 
